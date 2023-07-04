@@ -48,7 +48,7 @@
 #define HAVE_LIBCURL 1
 
 /* Define to 1 if you have the `fdk-aac' library (-lfdk-aac). */
-/* #undef HAVE_LIBFDK_AAC */
+#define HAVE_LIBFDK_AAC 1
 
 /* Define to 1 if you have the `FLAC' library (-lFLAC). */
 #define HAVE_LIBFLAC 1
@@ -182,7 +182,7 @@
 #define VERSION "0.1.37"
 
 /* build butt and butt-client */
-/* #undef WITH_CLIENT */
+#define WITH_CLIENT 1
 
 /* Enable support for Radio.co authentification */
 /* #undef WITH_RADIOCO */
