@@ -1,9 +1,356 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+Upstream-Name: butt
+Upstream-Contact: Daniel Noethen <butt@danielnoethen.de>
+Source: https://sourceforge.net/projects/butt/files/butt/
 
-Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
+Files: ABOUT-NLS
+       AUTHORS
+       butt.1
+       ChangeLog
+       config.h
+       config.h.in
+       configure.ac
+       icons/butt.icns
+       icons/butt.ico
+       icons/butt.xcf
+       icons/butt_yellow_512x512.jpg
+       icons/butt_yellow_512x512.png
+       icons/butt_yellow.ico
+       icons/butt_yellow_Mac_512x512.png
+       icons/icon_128x128@2x.png
+       icons/icon_128x128.png
+       icons/icon_16x16@2x.png
+       icons/icon_16x16.png
+       icons/icon_22x22.png
+       icons/icon_24x24.png
+       icons/icon_256x256@2x.png
+       icons/icon_256x256.png
+       icons/icon_32x32@2x.png
+       icons/icon_32x32.png
+       icons/icon_48x48.png
+       icons/icon_512x512@2x.png
+       icons/icon_512x512.png
+       icons/icon_64x64.png
+       icons/icon_96x96.png
+       icons/icon_scalable.svg
+       icons/icon_scalable_yellow.xcf
+       icons/icon_yellow_512x512@2x.xcf
+       icons/radio_co_badge.png
+       INSTALL
+       KNOWN_BUGS
+       m4/ChangeLog
+       Makefile.am
+       NEWS
+       player_plugins/amarok/butt_amarok.amarokscript.tar.bz2
+       po/boldquot.sed
+       po/butt.pot
+       po/de.gmo
+       po/de.po
+       po/en@boldquot.header
+       po/en@quot.header
+       po/es.gmo
+       po/es.po
+       po/fr.gmo
+       po/fr.po
+       po/insert-header.sin
+       po/LINGUAS
+       po/Makevars
+       po/POTFILES.in
+       po/pt_BR.gmo
+       po/pt_BR.po
+       po/quot.sed
+       po/remove-potcdate.sin
+       po/Rules-quot
+       po/stamp-po
+       README
+       src/aac_dll.h
+       src/aac_encode.cpp
+       src/aac_encode.h
+       src/AskForMicPermission.h
+       src/AskForMicPermission.m
+       src/atom.h
+       src/butt.cpp
+       src/butt.h
+       src/butt.manifest
+       src/cfg.cpp
+       src/cfg.h
+       src/command.cpp
+       src/command.h
+       src/currentTrack.cpp
+       src/currentTrack.h
+       src/currentTrackLinux.cpp
+       src/CurrentTrackOSX.h
+       src/CurrentTrackOSX.m
+       src/dsp.cpp
+       src/dsp.hpp
+       src/flac_encode.cpp
+       src/flac_encode.h
+       src/FLTK/fl_callbacks.cpp
+       src/FLTK/fl_callbacks.h
+       src/FLTK/FL/Fl_My_Double_Window.H
+       src/FLTK/FL/Fl_My_Invisible_Box.H
+       src/FLTK/FL/Fl_My_Value_Slider.H
+       src/FLTK/fl_funcs.cpp
+       src/FLTK/fl_funcs.h
+       src/FLTK/flgui.cpp
+       src/FLTK/flgui.fl
+       src/FLTK/flgui.h
+       src/FLTK/Fl_LED.cpp
+       src/FLTK/Fl_LED.h
+       src/FLTK/fl_timer_funcs.cpp
+       src/FLTK/fl_timer_funcs.h
+       src/FLTK/Fl_vu_meter.cpp
+       src/FLTK/Fl_vu_meter.h
+       src/icecast.cpp
+       src/icecast.h
+       src/lame_encode.cpp
+       src/lame_encode.h
+       src/Makefile.am
+       src/opus_encode.h
+       src/parseconfig.cpp
+       src/parseconfig.h
+       src/port_audio.cpp
+       src/port_audio.h
+       src/resource.rc
+       src/ringbuffer.cpp
+       src/ringbuffer.h
+       src/sha256.cpp
+       src/sha256.h
+       src/shoutcast.cpp
+       src/shoutcast.h
+       src/sockfuncs.cpp
+       src/sockfuncs.h
+       src/strfuncs.cpp
+       src/strfuncs.h
+       src/timer.cpp
+       src/timer.h
+       src/tls.cpp
+       src/tls.h
+       src/tray_agent.cpp
+       src/tray_agent.h
+       src/update.cpp
+       src/update.h
+       src/url.cpp
+       src/url.h
+       src/util.cpp
+       src/util.h
+       src/vorbis_encode.cpp
+       src/vorbis_encode.h
+       src/vu_meter.cpp
+       src/vu_meter.h
+       src/wav_header.cpp
+       src/wav_header.h
+       src/xpm/conn_dark.xpm
+       src/xpm/conn.xpm
+       src/xpm/folder.png
+       src/xpm/green_dark.png
+       src/xpm/green_light.png
+       src/xpm/orange_dark.png
+       src/xpm/orange_light.png
+       src/xpm/radio_co_badge.png
+       src/xpm/rec_armed.xpm
+       src/xpm/rec_dark.xpm
+       src/xpm/rec.xpm
+       src/xpm/red_dark.png
+       src/xpm/red_light.png
+       src/xpm/refresh.png
+       src/xpm/settings.png
+       src/xpm/VU_text.png
+       THANKS
+       usr/share/applications/butt.desktop
+       usr/share/icons/hicolor/128x128@2x/apps/butt.png
+       usr/share/icons/hicolor/128x128/apps/butt.png
+       usr/share/icons/hicolor/16x16/apps/butt.png
+       usr/share/icons/hicolor/22x22/apps/butt.png
+       usr/share/icons/hicolor/24x24/apps/butt.png
+       usr/share/icons/hicolor/256x256@2x/apps/butt.png
+       usr/share/icons/hicolor/256x256/apps/butt.png
+       usr/share/icons/hicolor/32x32/apps/butt.png
+       usr/share/icons/hicolor/48x48/apps/butt.png
+       usr/share/icons/hicolor/512x512@2x/apps/butt.png
+       usr/share/icons/hicolor/512x512/apps/butt.png
+       usr/share/icons/hicolor/64x64/apps/butt.png
+       usr/share/icons/hicolor/96x96/apps/butt.png
+       usr/share/icons/hicolor/scalable/apps/butt.svg
+       usr/share/pixmaps/butt16.xpm
+       usr/share/pixmaps/butt32.xpm
+Copyright: 2007-2022, Daniel Noethen <butt@danielnoethen.de>
+License: GPL-2+
+
+Files: usr/share/metainfo/de.danielnoethen.butt.metainfo.xml
+Copyright: 2007-2022, Daniel Noethen <butt@danielnoethen.de>
+License: MIT
+
+Files: src/FLTK/FL/Fl_My_Native_File_Chooser.H
+       src/FLTK/Fl_My_Native_File_Chooser.cxx
+       src/FLTK/Fl_My_Native_File_Chooser_MAC.mm
+       src/FLTK/Fl_My_Native_File_Chooser_WIN32.cxx
+       src/FLTK/Fl_My_Native_File_Chooser_common.cxx
+Copyright: 1998-2010, Bill Spitzak and others
+           1998-2014, Bill Spitzak and others
+           2004,      Greg Ercolano
+License: FLTK
+
+Files: src/FLTK/Fl_ILM216.cpp
+        src/FLTK/Fl_ILM216.h
+Copyright: 2003, Michael Sweet
+License: GPL-2+
+
+Files: aclocal.m4
+       compile
+       config.guess
+       config.sub
+       configure
+       depcomp
+       gettext.h
+       Makefile.in
+       src/Makefile.in
+       missing
+Copyright: 1992-2018, Free Software Foundation, Inc
+           1992-1996, Free Software Foundation, Inc
+           1994-2018, Free Software Foundation, Inc
+           1995-1998, Free Software Foundation, Inc
+           1996-2018, Free Software Foundation, Inc
+           1998-2012, Free Software Foundation, Inc
+           1999-2018, Free Software Foundation, Inc
+           2000-2002, Free Software Foundation, Inc
+           2004-2006, Free Software Foundation, Inc
+           2009-2016, Free Software Foundation, Inc
+License: GPL-2+ or GPL-3+
+
+Files: config.rpath
+Copyright: 1996,      Gordon Matzigkeit <gord@gnu.ai.mit.edu>
+           1996-2014, Free Software Foundation, Inc
+License: GPL-2+ or GPL-3+
+
+Files: src/FLTK/Fl_My_Native_File_Chooser_FLTK.cxx
+       src/FLTK/Fl_My_Native_File_Chooser_GTK.cxx
+Copyright: 1998-2014, Bill Spitzak and others
+           2012,      IMM
+License: FLTK
+
+Files: src/Biquad.cpp
+       src/Biquad.h
+Copyright: 2012, Nigel Redmon
+License: Biquad
+
+Files: src/opus_encode.cpp
+Copyright: 2007-2018, Daniel Noethen <butt@danielnoethen.de>
+           2012,      Xiph.Org Foundation
+License: GPL-2+ or BSD-2-Clause
+
+Files: install-sh
+Copyright: 1994, X Consortium
+License: Expat
+
+Files: player_plugins/amarok/butt_amarok.rb
+Copyright: 2005-2006, Mark Kretschmann <markey@web.de>
+           2007-2018, Daniel Noethen <butt@danielnoethen.de>
+License: GPL-2
+
+Files: m4/gettext.m4
+       m4/iconv.m4
+       m4/intlmacosx.m4
+       m4/lib-ld.m4
+       m4/lib-link.m4
+       m4/lib-prefix.m4
+       m4/nls.m4
+       m4/progtest.m4
+       m4/po.m4
+Copyright: 1995-2003, Free Software Foundation, Inc
+           1995-2014, Free Software Foundation, Inc
+           1996-2003, Free Software Foundation, Inc
+           2000-2002, Free Software Foundation, Inc
+           2004-2014, Free Software Foundation, Inc
+           2005-2006, Free Software Foundation, Inc
+           2001-2014, Free Software Foundation, Inc
+           2001-2005, Free Software Foundation, Inc
+           2007-2014, Free Software Foundation, Inc
+           2008-2014, Free Software Foundation, Inc
+           2009-2014, Free Software Foundation, Inc
+           1995-2000, Ulrich Drepper <drepper@cygnus.com>
+           1996,      Ulrich Drepper <drepper@cygnus.com>
+           2000-2003, Bruno Haible <haible@clisp.cons.org>
+           2000-2006, Bruno Haible <haible@clisp.cons.org>
+           2008-2010, Bruno Haible <haible@clisp.cons.org>
+License: GPL-3+ or LGPL-3+
+
+Files: po/Makefile.in.in
+Copyright: 1995-1997, Ulrich Drepper <drepper@gnu.ai.mit.ed>
+           2000-2007, Ulrich Drepper <drepper@gnu.ai.mit.ed>
+           2009-2010, Ulrich Drepper <drepper@gnu.ai.mit.ed>
+License: GPL-3+ or LGPL-3+
+
+Files: src/cJSON.cpp
+       src/cJSON.h
+Copyright: 2009-2017 Dave Gamble and cJSON contributors
+License: Expat
+
+Files: debian/*
+Copyright: 2018-2023, Paulo Henrique de Lima Santana (phls) <phls@debian.org>
+License: GPL-2+ or GPL-3+ or BSD-2-Clause or Expat or FLTK or LGPL-3+
+
+License: FLTK
+                                FLTK
+                           December 11, 2001
+ .
+ The FLTK library and included programs are provided under the terms
+ of the GNU Library General Public License (LGPL) with the following
+ exceptions:
+ .
+    1. Modifications to the FLTK configure script, config
+       header file, and makefiles by themselves to support
+       a specific platform do not constitute a modified or
+       derivative work.
+       .
+       The authors do request that such modifications be
+       contributed to the FLTK project - send all
+       contributions to "fltk-bugs@fltk.org".
+       .
+    2. Widgets that are subclassed from FLTK widgets do not
+       constitute a derivative work.
+       .
+    3. Static linking of applications and widgets to the
+       FLTK library does not constitute a derivative work
+       and does not require the author to provide source
+       code for the application or widget, use the shared
+       FLTK libraries, or link their applications or
+       widgets against a user-supplied version of FLTK.
+       .
+       If you link the application or widget to a modified
+       version of FLTK, then the changes to FLTK must be
+       provided under the terms of the LGPL in sections
+       1, 2, and 4.
+       .
+    4. You do not have to provide a copy of the FLTK license
+       with programs that are linked to the FLTK library, nor
+       do you have to identify the FLTK license in your
+       program or documentation as required by section 6
+       of the LGPL.
+       .
+       However, programs must still identify their use of FLTK.
+       The following example statement can be included in user
+       documentation to satisfy this requirement:
+       .
+           [program/widget] is based in part on the work of
+           the FLTK project (http://www.fltk.org).
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -20,3 +367,103 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE HOLDERS OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: Biquad
+ This source code is provided as is, without warranty.
+ You may copy and distribute verbatim copies of this document.
+ You may modify and use this source code to create binary code
+ for your own purposes, free or commercial.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: LGPL-3+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 3 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-3".
