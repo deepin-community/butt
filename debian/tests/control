@@ -1,0 +1,2 @@
+Test-Command: butt -h | if [ $? -eq 0 ]; then echo "ok"; fi
+Restrictions: allow-stderr

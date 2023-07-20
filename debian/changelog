@@ -1,5 +1,69 @@
-template-repository (1.0-1) unstable; urgency=medium
+butt (0.1.37-2) unstable; urgency=medium
 
-  * Initial release
+  * debian/control: bumped Standards-Version to 4.6.2.
+  * debian/gbp.conf: file created.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Paulo Henrique de Lima Santana (phls) <phls@debian.org>  Wed, 18 Jan 2023 20:25:20 -0300
+
+butt (0.1.37-1) unstable; urgency=medium
+
+  * New upstream version 0.1.37.
+  * debian/control:
+      - Added libcurl4-openssl-dev to Build-Depends.
+      - Bumped Standards-Version to 4.6.1.
+  * debian/copyright:
+      - Added files to the lists.
+      - Updated packaging copyright years.
+  * debian/tests/control: updated with a new test.
+  * debian/upstream/metadata:
+      - Removed obsolete field Name from debian/upstream/metadata (already
+        present in machine-readable debian/copyright).
+
+ -- Paulo Henrique de Lima Santana (phls) <phls@debian.org>  Wed, 11 Jan 2023 20:41:21 -0300
+
+butt (0.1.26-1) unstable; urgency=medium
+
+  * New upstream version 0.1.26. (Closes: #970249).
+  * debian/control:
+      - Added libssl-dev on Build-Depend.
+      - Bumped Standards-Version to 4.5.1.
+      - Updated DH to level 13.
+  * debian/copyright:
+      - Added new files from upstream.
+      - Removed licence for manpage generator.
+      - Split texts for licences GPL-2 and GPL-2+.
+      - Updated packaging copyright years.
+  * debian/manpages: changed to get the file from upstream.
+  * debian/manpage/*: deleted because upstream has a manpage file.
+  * debian/watch: remove zip extension to download new upstream.
+
+ -- Paulo Henrique de Lima Santana (phls) <phls@debian.org>  Wed, 23 Dec 2020 13:42:17 -0300
+
+butt (0.1.18-1) unstable; urgency=medium
+
+  * New upstream version 0.1.18.
+  * debian/control:
+      - Added 'Rules-Requires-Root: no' in source stanza.
+      - Change Maintainer's email.
+      - Change Vcs-* fields for new repository in salsa.
+      - Bumped Standards-Version to 4.4.1.
+      - Updated DH to level 12.
+  * debian/copyright:
+      - Change Maintainer's email.
+      - Removed COPYING file.
+      - Removed LGPL-2+ licence because it became unnecessary.
+      - Removed xcode/* references because upstream removed this folder.
+      - Updated upstream code and packaging copyrights years.
+  * debian/manpage/*: updated manpage.
+  * debian/README.source: deleted because upstream removed the non-free codec.
+  * debian/rules: dropped unnecessary dependency on dh-autoconf.
+  * debian/salsa-ci.yml: created to start CI tests for Salsa.
+  * debian/tests/control: added to perform trivial tests.
+
+ -- Paulo Henrique de Lima Santana (phls) <phls@debian.org>  Tue, 24 Dec 2019 22:51:11 +0300
+
+butt (0.1.17+dfsg-1) unstable; urgency=medium
+
+  * Initial release to Debian. (Closes: #917543).
+
+ -- Paulo Henrique de Lima Santana (phls) <phls@softwarelivre.org>  Fri, 28 Dec 2018 12:44:45 -0200
